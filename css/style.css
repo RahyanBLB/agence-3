@@ -72,9 +72,9 @@ body {
 
 
 .survol:hover {
-  border-top: solid blue 2px;
+  border-top: solid #0065FC 2px;
   padding-top: 12px;
-  /* padding-top: 2px; */
+  color: #0065FC;
 }
 .space1 { 
     margin-right: 42.61px;
@@ -93,6 +93,46 @@ body {
     height: 19px;
     margin: 30px;
 }
+
+.soustitre {
+    font-size: 22px;
+    margin-top: 109px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    font-weight: 700px;
+    line-height: 25.83px;
+}
+
+.pt1 {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 400px;
+}
+
+.containersearch {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.bordergeo {
+  border: solid 1px #F2F2F2;
+}
+
+.bordermarseille {
+    border-color: color #F2F2F2;
+}
+
+.borderrechercher {
+    border-color: color #0065FC;
+} 
+
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
