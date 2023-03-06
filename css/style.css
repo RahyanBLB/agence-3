@@ -3,12 +3,16 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
 
+h1 {
+    margin: 0;
+}
 .fa-solid {
     color: var(--main-color);
 }
@@ -95,20 +99,15 @@ body {
 }
 
 .soustitre {
+    margin-top: 26px;
     font-size: 22px;
-    margin-top: 109px;
-    margin-left: 50px;
-    margin-right: 50px;
-    text-align: left;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 25.83px;
 }
 
 .pt1 {
     font-size: 16px;
     margin-top: 8px;
-    margin-left: 50px;
-    margin-right: 50px;
     font-weight: 400px;
 }
 
@@ -130,6 +129,7 @@ body {
 .borderrechercher {
     border-color: color #0065FC;
 } 
+
 
 
 
@@ -196,6 +196,9 @@ body {
     margin-bottom: 5px;
 }
 
+.rechercher {
+  margin-top: 35px;
+}
 
 
 
